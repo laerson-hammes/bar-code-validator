@@ -1,4 +1,4 @@
-# Bar Code
+# Bar Code EAN-13
 
 EX: 7898275010656
 
