@@ -1,12 +1,12 @@
 # Bar Code
 
-7898275010656
+EX: 7898275010656
 
 1.
 
-  (Somar todos os números dos indices pares), exceto o de número 12, último dígito do código
+> (Somar todos os números dos indices pares), exceto o de número 12, último dígito do código
 
-  (7 + 9 + 2 + 5 + 1 + 6) = 30
+> (7 + 9 + 2 + 5 + 1 + 6) = 30
 
 2.
 
