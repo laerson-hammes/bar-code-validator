@@ -1,8 +1,8 @@
 def getDivisionOfTen(result):
    for number in range(0, 10, +1):
-      result += number
-      if result % 10 == 0:
-         return result
+      aux = result + number
+      if aux % 10 == 0:
+         return aux
 
 def validate(digit, code):
    if int(digit) == int(code.pop()):
