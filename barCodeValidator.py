@@ -1,4 +1,4 @@
-def getDivisionOfTen(result):
+def get_division_of_ten(result):
    for number in range(0, 10, +1):
       aux = result + number
       if aux % 10 == 0:
@@ -20,10 +20,10 @@ def validation(code):
          else:
             seccond = seccond + (int(element) * 3)
    result = first + seccond
-   divisionOfTen = getDivisionOfTen(result)
-   validate(divisionOfTen - result, code)
+   division_of_ten = get_division_of_ten(result)
+   validate(division_of_ten - result, code)
    
-def verifyInput(code):
+def verify_input(code):
    if len(code) == 13:
       validation(code)
    else:
@@ -33,8 +33,8 @@ def verifyInput(code):
       if len(code) != 13:
          print("[-] ERROR")
       else:
-         verifyInput(code)
+         verify_input(code)
             
    
 code = str(input("[+] BAR CODE: "))
-verifyInput(list(code))
+verify_input(list(code))
