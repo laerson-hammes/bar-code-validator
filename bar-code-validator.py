@@ -4,11 +4,13 @@ def get_division_of_ten(result):
       if aux % 10 == 0:
          return aux
 
+
 def validate(digit, code):
    if int(digit) == int(code.pop()):
       print(f"[+] {True}")
    else:  
       print(f"[-] {False}")
+     
      
 def validation(code):
    first = 0
@@ -18,10 +20,11 @@ def validation(code):
          if index % 2 == 0:
             first += int(element)
          else:
-            seccond = seccond + (int(element) * 3)
+            seccond += (int(element) * 3)
    result = first + seccond
    division_of_ten = get_division_of_ten(result)
    validate(division_of_ten - result, code)
+   
    
 def verify_input(code):
    if len(code) == 13:
